@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/stylepa.css">
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+
+
+
+  <div class="container-fluid">
+<img src="images/entete.jpg" width="100%" alt="">
+  </div>
+
+
+    <a href="../logout.php">
+        <input class="input2 bg-danger" type="SUBMIT" value="Déconnexion" > 
+      </a>
+
+<div class="container-fluid corps">
+  <div class="container d-flex justify-content-center">
+      <div class="row mt-5">
+        <form method="POST" action="recherch.php"> 
+          <input class="input1 mr-2" type="text" name="recherche"style="width: 28rem;"placeholder=" ">
+          <input class="input2 bg-success" type="SUBMIT" value="recherche" > 
+     </form>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col zoom">
+          <a href="recup.php">
+            <div class="card" style="width: 7rem;">
+              <img class="card-img-top" src="images/consulter.png" alt="Card image cap">
+                <a href="recup.php" class="btn btn-primary">consulter</a>
+              </div>
+          </a>
+          </div>
+          <div class="col zoom">
+            <a href="form.php">
+              <div class="card" style="width: 7rem;">
+                <img class="card-img-top" src="images/ajouter.jpg" alt="Card image cap">
+                  <a href="form.php" class="btn btn-success">Ajouter</a>
+                </div>
+            </a>
+            </div>
+            <div class="col  zoom">
+              <div class="card" style="width: 7rem;">
+                <img class="card-img-top" src="images/statistique.jpg" alt="Card image cap">
+                  <a href="#" class="btn btn-warning">Statistique</a>
+                </div>
+              </div>
+              <div class="col zoom">
+                <div class="card" style="width: 7rem;">
+                  <img class="card-img-top" src="images/suprimer.jpg" alt="Card image cap">
+                    <a href="#" class="btn btn-danger">Supprimer</a>
+                  </div>
+                </div>
+
+
+
+            </div>
+          </div> 
+ </div>
+
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="styles/jquery.min.js"></script>
+  
+</body>
+
+</html>
