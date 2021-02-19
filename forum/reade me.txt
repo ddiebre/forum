@@ -1,0 +1,7 @@
+1. créer une  base de donnée avec le nom"demo"?
+2.importer le ficher "users.sql" dans la base "demo"
+3.ouvrez ensuite le ficher "register.php" depuis votre navigateur via le serveur local pour vous connecter.
+(exemplehttp://localhost/gestion/register.php) 
+4.ouvrez ensuite le ficher "register.php" depuis votre navigateur via le serveur local pour vous connecter.
+(exemplehttp://localhost/gestion/login.php) 
+merci 
